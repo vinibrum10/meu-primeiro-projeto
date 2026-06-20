@@ -1,0 +1,45 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Banco SQLite (arquivos temporários)
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTA: data/gestao_vinicius.db está incluído intencionalmente nesta versão
+# pois o banco local faz parte do uso pessoal do app.
+# Se o projeto for publicado no GitHub público no futuro,
+# adicione "data/*.db" ao .gitignore e remova o banco do repositório.
